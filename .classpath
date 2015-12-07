@@ -5,5 +5,8 @@
 	<classpathentry kind="lib" path="C:/Users/raf60_000/Documents/CAP5734/Project Stuff/postgresql-9.4-1204.jdbc4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/raf60_000/Documents/CAP5734/Project Stuff/commons-math3-3.5/commons-math3-3.5-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/raf60_000/Documents/CAP5734/Project Stuff/commons-math3-3.5/commons-math3-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/raf60_000/Documents/CAP5734/Project Stuff/JRI.jar"/>
+	<classpathentry kind="lib" path="C:/Users/raf60_000/Documents/CAP5734/Project Stuff/JRIEngine.jar"/>
+	<classpathentry kind="lib" path="C:/Users/raf60_000/Documents/CAP5734/Project Stuff/REngine.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

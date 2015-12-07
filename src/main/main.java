@@ -7,7 +7,9 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-
+import org.rosuda.REngine.*;
+import org.rosuda.JRI.*;
+import org.rosuda.JRI.REXP;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 
 import scan.Scan;
@@ -34,8 +36,17 @@ public class main {
 		for (String tablename : tables) {
 			System.out.println("\t"+tablename);
 			scan.ScanColumns(conn, tablename);
+			scan.ScanDoubles(conn, tablename);
 		}
 		
+		
+		
+//		System.out.println("Init R::::");
+//		System.out.println(System.getProperty("java.library.path"));
+//		Rengine rengine = new Rengine();
+//		rengine.eval(String.format("greeting%s'", "Hello R World"));
+//	      REXP result = rengine.eval("greeting     System.out.println(result.asString()");
+//		
 //		Statement statement = conn.createStatement();
 //		ResultSet rs = statement.executeQuery("SELECT * FROM patientcorepopulatedtable limit(10)");
 //		ResultSetMetaData rsmd = rs.getMetaData();
