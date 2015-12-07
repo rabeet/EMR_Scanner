@@ -1,16 +1,16 @@
 # EMR_Scanner
 EMR Scanner java program for CAP 5734
 
-#Packages:
+## Packages:
 
-# Connection Package:
+### Connection Package:
 DBConnection: This class is responsible for connecting to a given PostgreSQL database.
 
-# gui:
+### gui:
 MainJFrame: This class is an attempt to add some gui to the regular console application.
 
-# main:
+### main:
 main: Main function class that calls the different classes.
 
-# scan:
+### scan:
 Scan: Scan the columns in a given table and parse them as arraylists.
